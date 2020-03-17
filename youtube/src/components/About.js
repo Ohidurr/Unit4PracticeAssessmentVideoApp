@@ -2,15 +2,15 @@ import React from 'react'
 import axios from 'axios'
 
 
-const Home = () => {
+const About = () => {
 
     return (
         <div>
-        home
+        About
         </div>
     )
 }
 
 
 
-export default Home;
+export default About;

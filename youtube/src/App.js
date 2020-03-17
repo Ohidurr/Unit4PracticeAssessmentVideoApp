@@ -3,15 +3,23 @@ import './App.css';
 import { Route, Switch } from "react-router-dom";
 import Navbar from "./components/NavBar";
 import Home from "./components/Home";
-import About from "./components/About";
+import About from "./components/About"
+import YouTube from "./components/Youtube"
 
 function App() {
   return (
     <div className="App">
-      <Switch>
       <Navbar/>
-      <Route exact path={"/"} component={Home}/>
-      <Route path={"/about"} component={About}/>
+      <Switch>
+      <Route exact path={"/"}>
+        <Home />
+      </Route>
+      <Route path={"/about"}>
+        <About />
+      </Route>
+      <Route exact path={"/video"}>
+        <YouTube />
+      </Route>
     </Switch>
     </div>
   );

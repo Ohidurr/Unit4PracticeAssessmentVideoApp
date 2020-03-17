@@ -2,15 +2,15 @@ import React from 'react'
 import axios from 'axios'
 
 
-const Home = () => {
+const YouTube = () => {
 
     return (
         <div>
-        home
+        YouTube
         </div>
     )
 }
 
 
 
-export default Home;
+export default YouTube;
